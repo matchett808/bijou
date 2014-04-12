@@ -2,11 +2,9 @@
 
 A beautiful CSS framework under 2kb (minified and gzip)
 
-Example: http://andhart.github.io/bijou/
+Example: http://matchett808.github.io/bijou
 
-If you want to contribute ideas or see the roadplan, there's a Trello: https://trello.com/b/2Gklk2lG
-
-Browser Support: Checked and tested in the latest Firefox, Safari, Chrome, and IE9+. 
+Based on Bijou by andhart -https://github.com/andhart/bijou
 
 ###Navbar:
 
