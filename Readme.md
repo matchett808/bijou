@@ -4,7 +4,7 @@ A beautiful CSS framework under 2kb (minified and gzip)
 
 Example: http://matchett808.github.io/bijou
 
-Based on Bijou by andhart -https://github.com/andhart/bijou
+Based on Bijou by @andhart - https://github.com/andhart/bijou
 
 ###Navbar:
 
