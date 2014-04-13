@@ -1,0 +1,55 @@
+/*Anything that doesn't fit else where...*/
+
+/*Blockquote*/
+
+blockquote.qmarks
+{
+    &:before
+    {
+        content: "\201C";
+        float: left;
+        font-size: 5em;
+        margin-top: -0.225em;
+        margin-left: -0.1em;
+        color: #AAA;
+    }
+    border-left:none;
+    padding-left: 0;
+    
+}
+
+blockquote
+{
+    margin-left: 1.5em;
+    border-left: 5px solid $border-color;
+    padding-left:15px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-size:1.5em;
+    footer
+    {
+    opacity:1;
+    border-top:none;
+    background:transparent;
+    color:inherit;
+    font-style: italic;
+    margin-top:0;
+    padding: 0 0;
+        cite
+        {
+            &:before
+            {
+                content:' - ';
+            }
+            font-style: normal;
+            color: #AAA;
+        }
+    }
+}
+
+footer
+{
+    @include colorize-footer($flat-midnight-blue);
+    padding: 20px 0;
+    margin-top:3em;
+}
