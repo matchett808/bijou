@@ -30,3 +30,69 @@
 		}
 	}
 }
+
+
+
+@media(max-width:480px)
+{
+    .row {
+    box-sizing: border-box !important; 
+    padding: 0 2%;
+    }
+    .row > * {
+    Width: 98% !important;
+    }
+     .form input, .form select, textarea
+    {
+        width:inherit;
+        box-sizing: border-box !important;
+    }
+    .span
+    {
+        box-sizing:border-box;
+        padding:0 15px;
+        margin:0 0 20px 0;
+    }
+    .one{
+        width:100%;
+    }
+    
+    .two{
+        width:100%;
+    }
+    
+    .three{
+        width:100%;
+    }
+    
+    .four{
+        width:100%;
+    }
+    
+    .five{
+        width:100%;
+    }
+    
+    .six{
+        width:100%;
+    }
+    
+    .seven{
+        width:100%;
+    }
+    
+    .eight{
+        width:100%;
+    }
+    
+    .nine{
+        width:100%;
+    }
+    
+    .ten{
+        width:100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+padding-left:2%;
+}
+}
