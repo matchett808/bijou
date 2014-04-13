@@ -7,12 +7,30 @@
 		border: 1px solid #CCC;
 		padding: 5px 8px;
 		margin: 5px 10px 5px 0;
-		&:hover, &:focus {
+		&:hover {
 			outline: 0;
-			border: 1px solid #AAA;
+			border: 1px solid lighten($primary-color, 30%);
+		}
+		 &:focus {
+			outline: 0;
+			border: 1px solid $primary-color;
 		}
 	}
 	select {
 		box-sizing: content-box;
 	}
+    input[type=button], 
+    input[type=submit]
+    { 
+        @include colorize-footer($button-color);
+        padding: 5px 20px;
+        border:none;
+        
+    }
+    input[type=button]:hover, 
+    input[type=submit]:hover
+    {
+        @include colorize-footer(lighten($button-color, 5%));
+        border:none;
+    }
 }
