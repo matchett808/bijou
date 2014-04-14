@@ -1,6 +1,6 @@
 #Bijou
 
-A small (less than 5 kb) CSS framework, Based on the origional 2 kb version by andhart...
+A small (less than 10 kb) CSS framework, Based on the origional 2 kb version by andhart...
 
 Example: http://matchett808.github.io/bijou
 
