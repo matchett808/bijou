@@ -1,6 +1,3 @@
-
-
-
 /* TABLE */
 
 .table {
@@ -24,4 +21,13 @@
 			border:1px #CCC solid;
 		}
 	}
+    
+    &.hoverable
+    {
+        tr:hover
+        {
+            background:$table-hover-color;
+            color:lighten($table-hover-color, 90%);
+        }
+    }
 }
