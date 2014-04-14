@@ -2,7 +2,6 @@
 	width: 100%;
 	input,textarea,select {
 		font-size: 1em;
-		border-radius: 2px;
 		-moz-border-radius: 2px;
 		border: 1px solid #CCC;
 		padding: 5px 8px;
@@ -19,22 +18,9 @@
 	select {
 		box-sizing: content-box;
 	}
-    input[type=button], 
-    input[type=submit]
-    { 
-        @include colorize-footer($button-color);
-        padding: 5px 20px;
-        border:none;
-        
-    }
-    input[type=button]:hover, 
-    input[type=submit]:hover
-    {
-        @include colorize-footer(lighten($button-color, 5%));
-        border:none;
-    }
 }
-button
+button, .button
 {
+    border-radius: 4px;
     line-height:inherit;
 }
