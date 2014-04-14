@@ -79,5 +79,6 @@ $flat-asbestos: #7F8C8D;
 
 
 /* Theming :) */
-$primary-color: $flat-midnight-blue;
+$primary-color: darken($flat-midnight-blue, 10%);
 $button-color: $flat-midnight-blue;
+$table-hover-color:  darken($flat-alizarin, 10%);
